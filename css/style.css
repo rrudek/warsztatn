@@ -321,7 +321,7 @@ sup {
 
 button {
 	position:relative;
-  margin-top: 100px; 
+  margin-top: 81px; 
   left:25%;
   width: 122px;
 	height: 34px;
@@ -434,39 +434,45 @@ text-transform: uppercase;
 }
 
 
+.copy {
+margin-top: 50px;
+color: #9b9b9b;
+font-size: 16px; /* Approximation due to font substitution */
+font-weight: 500;
+line-height: 21.37px; /* Approximation due to font substitution */
+text-align: left;
+font-family: Raleway;
+color: #9b9b9b;
+font-size: 16px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 21.37px; /* Approximation due to font substitution */
+text-align: left;
+width: 631px;
+float: left;
 
-/*.site-footer {
-	/*background-color: #474747;*/
+}
+.social {
 	float: left;
-	width: 100%;
-	background-color: black
-}
-
-.logo2 img{
-	width: 100px;
-	height: 20px;
-	margin-top: 35px;
-	margin-bottom: 35px;
-}
-
-/*.item {
-	float: left;
-	width: 25%;
-	color: #474747;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 40px;
-	margin-bottom: 90px;*/
-
+	margin-top: 50px;
+	width: 350px;
+	margin-left: 50px;
 
 }
-.last {
-	float: right;
-	width: 50%;
+.social span {
+
+color: #9b9b9b;
+font-size: 20px; /* Approximation due to font substitution */
+font-weight: 600;
+line-height: 32px; /* Approximation due to font substitution */
+color: #9b9b9b;
+font-size: 20px; /* Approximation due to font substitution */
+text-align: right;
+float: right;
+
 }
-.wrap {
-	margin-bottom: 90px;
-}*/
+
+
+
 
 
 
