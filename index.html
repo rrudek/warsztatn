@@ -15,7 +15,7 @@
             </div>
             <nav class="site-menu">
                 <ul>
-                    <li>O firmie
+                    <li class="dropdown">O firmie
                         <ul id="submenu">
                             <li>Aktualności</li>
                             <li>Nasz team</li>
@@ -31,8 +31,12 @@
     <section id="hero">
         <div class="container background clearfix">
             <div class="pic">
-                <img src="./images/black_chair.png" alt="">
+            <ul>
+               <li> <img src="./images/black_chair.png" alt=""></li>
+                <li> <img src="./images/red.png" alt=""></li>
+                 <li> <img src="./images/orange.png" alt=""></li>
             </div>
+            </ul>
             <div class="text">
                 <h1>SIT <span>ON</span> OUR CHAIR</h1>
                 <p>
@@ -41,6 +45,8 @@
                 <button class="more">Zobacz więcej</button>
             </div>
         </div>
+        <div class="move" id="prev"><</div>
+        <div class="move" id="next">></div>
     </section>
     <section id="middle">
         <div class="container clearfix">
@@ -138,6 +144,7 @@
              </div>
         </div>
     </footer>
+    <script src=./js/app.js></script>
 </body>
 
 </html>
